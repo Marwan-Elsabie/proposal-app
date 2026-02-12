@@ -61,7 +61,7 @@ function App() {
       <h1>Mutlu Sevgililer Günü ve Yıldönümümüz ❤️</h1>
       <h2>Benimle evlenir misin?</h2>
 
-      <button className="yesBtn" onClick={() => setAccepted(true)}>
+      <button className="yesBtn" onClick={() => setAccepted(true)} onTouchStart={() => setAccepted(true)}>
         Evet 💍
       </button>
 
