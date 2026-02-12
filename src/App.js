@@ -65,6 +65,7 @@ function App() {
         Evet 💍
       </button>
 
+    <div className="btnWrapper"></div>
       <button
         className="noBtn"
         style={{ top: noPosition.top, left: noPosition.left }}

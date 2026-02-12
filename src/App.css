@@ -17,6 +17,13 @@ body {
   margin: 0;
 }
 
+.btnWrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+}
+
 button {
   padding: 18px 36px;
   font-size: 20px;
@@ -28,11 +35,27 @@ button {
 }
 
 .yesBtn {
+  position: absolute;
   background-color: #28a745;
   top: 65%;
-  left: 30%;
+  left: 25%;
+  transform: translateX(-50%);
 }
 
 .noBtn {
+  position: absolute;
   background-color: #dc3545;
+}
+
+@media (min-width: 768px) {
+
+  .btnWrapper {
+    height: 150px;
+  }
+
+  .yesBtn {
+    left: 40%;
+    transform: translateX(-50%);
+  }
+
 }
