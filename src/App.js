@@ -61,19 +61,21 @@ function App() {
       <h1>Mutlu Sevgililer Günü ve Yıldönümümüz ❤️</h1>
       <h2>Benimle evlenir misin?</h2>
 
-      <button className="yesBtn" onClick={() => setAccepted(true)} onTouchStart={() => setAccepted(true)}>
-        Evet 💍
-      </button>
+      <div className="btnWrapper">
+        <button className="yesBtn" onClick={() => setAccepted(true)}>
+          Evet 💍
+        </button>
 
-    <div className="btnWrapper"></div>
-      <button
-        className="noBtn"
-        style={{ top: noPosition.top, left: noPosition.left }}
-        onMouseEnter={moveNoButton}
-        onTouchStart={moveNoButton}
-      >
-        Hayır 😈
-      </button>
+      
+        <button
+          className="noBtn"
+          style={{ top: noPosition.top, left: noPosition.left }}
+          onMouseEnter={moveNoButton}
+          onTouchStart={moveNoButton}
+        >
+          Hayır 😈
+        </button>
+      </div>
     </div>
   );
 }
