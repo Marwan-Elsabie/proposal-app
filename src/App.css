@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  padding: 18px 36px;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  position: absolute;
+  transition: 0.2s;
+}
+
+.yesBtn {
+  background-color: #28a745;
+  top: 65%;
+  left: 30%;
+}
+
+.noBtn {
+  background-color: #dc3545;
+}
