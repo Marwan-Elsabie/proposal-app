@@ -44,8 +44,8 @@ function App() {
   if (accepted) {
     return (
       <div className="container">
-        <h1>I knew it 😌</h1>
-        <p>You cannot live without me ❤️</p>
+        <h1>Biliyordum 😌</h1>
+        <p>Bensiz yaşayamazsın ❤️</p>
 
         <img
           src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif"
@@ -58,11 +58,11 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Happy Valentine and Anniversary ❤️</h1>
-      <h2>Will you marry me?</h2>
+      <h1>Mutlu Sevgililer Günü ve Yıldönümümüz ❤️</h1>
+      <h2>Benimle evlenir misin?</h2>
 
       <button className="yesBtn" onClick={() => setAccepted(true)}>
-        Yes 💍
+        Evet 💍
       </button>
 
       <button
@@ -71,7 +71,7 @@ function App() {
         onMouseEnter={moveNoButton}
         onTouchStart={moveNoButton}
       >
-        No 😈
+        Hayır 😈
       </button>
     </div>
   );
